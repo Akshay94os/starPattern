@@ -6,7 +6,7 @@ def animated_spinner(message="Analyzing code", duration=3):
     spinner_symbols = ['|', '/', '-', '\\']
     end_time = time.time() + duration
     i = 0
-    
+      
     while time.time() < end_time:
         sys.stdout.write(f'\r[+] {message} {spinner_symbols[i % len(spinner_symbols)]}')
         sys.stdout.flush()
