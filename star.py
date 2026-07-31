@@ -15,7 +15,7 @@ def animated_spinner(message="Analyzing code", duration=3):
           
     print(f'\r[✓] {message} Complete!   ')
 
-
+ 
 def typewriter_text(text, speed=0.03):
     """Prints text letter-by-letter for a terminal UI effect."""
     for char in text:
