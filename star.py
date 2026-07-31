@@ -12,7 +12,7 @@ def animated_spinner(message="Analyzing code", duration=3):
         sys.stdout.flush()
         time.sleep(0.1)
         i += 1
-        
+          
     print(f'\r[✓] {message} Complete!   ')
 
 
